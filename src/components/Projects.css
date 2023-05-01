@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;800&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+body{
+    background: #ffffff;
+}
+.box{
+    position: absolute;
+    margin-top: 10rem;
+    margin-left: 19rem;
+    background: #e2e8f0;
+    width: 21rem;
+    height: 37rem;
+    /* overflow: hidden; */
+    transition: width 0.2s linear;
+    /* box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1); */
+    border-radius: 15px;
+}
+.bar{
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background: #c4d1e1;
+    width: 19rem;
+    height: 2.5rem;
+    overflow: hidden;
+    border-radius: 12px;
+    text-align: center;
+}
+.box-heading{
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: 600;
+
+}
+.bar span{
+    position: relative;
+    color: rgb(30, 201, 41);
+    font-size: 25px;
+    padding: 10px;
+}
+
+.container{
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    background: #fff;
+    width: 19rem;
+    height: 15rem;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+h2{
+    position: relative;
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+    padding: 10px;
+
+}
+.container1{
+    position: absolute;
+    margin-top: 22rem;
+    margin-left: 1rem;
+    background: #fff;
+    width: 19rem;
+    height: 10rem;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}

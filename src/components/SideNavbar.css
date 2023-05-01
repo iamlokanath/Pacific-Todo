@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;800&family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins" ,sans-serif;
+}
+body{
+    background: #dfe9f5;
+}
+nav{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    width: 270px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    transition: all 0.5s ease;
+    margin: 20px 0 0px 0px;
+}
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.logo span{
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 9px;
+    margin-left: 14px;
+}
+a{
+    position: relative;
+    color: rgb(122, 122, 122);
+    font-size: 14px;
+    display: table;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+
+.fas{
+    position: relative;
+    height: 40px;
+    top: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 0px;
+    margin-left: 25px;
+}
+
+.list:hover{
+    color: rgb(0, 0, 0);
+}
+
+.logout{
+    position: absolute;
+    bottom: 55px;
+}
+.setting{
+    position: absolute;
+    bottom: 110px;
+
+}
+.logout:hover{
+    color: rgb(0, 0, 0);
+}
+.setting:hover{
+    color: rgb(0, 0, 0);
+}
