@@ -3,6 +3,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <>
+    <div className="Open"></div>
   <div className="head">
     <h1>Projects</h1>
     <h3>This week</h3>
@@ -15,7 +16,7 @@ const Projects = () => {
         <span>+</span>
       </div>
     <div className="container">
-        <h2>Projects</h2>
+        <h2>Projects</h2> 
     </div>
     <div className="container1">
         <h2>Projects</h2>
